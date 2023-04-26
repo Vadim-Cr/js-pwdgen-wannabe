@@ -7,6 +7,7 @@
     border: 2px solid darkmagenta;
     border-radius: 2rem;
     margin: 4rem;
+    animation: mymove 5s infinite;
 }
 
 #mio_var:hover{
@@ -15,3 +16,7 @@
     border: 0.25rem solid darkslateblue;
     border-radius: 10%;
 }
+
+@keyframes mymove {
+    50% {transform: rotate(360deg);}
+  }
