@@ -1,0 +1,17 @@
+#mio_var{
+    color: red;
+    font-size: 3rem;
+    text-align: center;
+    font-weight: bold;
+    padding: 1rem;
+    border: 2px solid darkmagenta;
+    border-radius: 2rem;
+    margin: 4rem;
+}
+
+#mio_var:hover{
+    background-color: aquamarine;
+    color: cornflowerblue;
+    border: 0.25rem solid darkslateblue;
+    border-radius: 10%;
+}
